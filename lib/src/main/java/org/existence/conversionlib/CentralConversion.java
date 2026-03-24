@@ -51,4 +51,42 @@ public final class CentralConversion {
 
     }
 
+    /**
+     * Conversion factors for units of weight. Uses kilograms as a central unit
+     */
+    public final class WeightConversion {
+
+        // The standard unit is KILOGRAMS
+        public static final double ATOMIC_PER_UNIT = 602214100000000000000000000.0;
+        public static final double CARATS_PER_UNIT = 5000.0;
+        public static final double CENTIGRAMS_PER_UNIT = 100000.0;
+        public static final double DECIGRAMS_PER_UNIT = 10000.0;
+        public static final double DEKAGRAMS_PER_UNIT = 100.0;
+        public static final double DRAMS_PER_UNIT = 564.3834;
+        public static final double FEMTOGRAMS_PER_UNIT = 1000000000000000000.0;
+        public static final double FQUNITALS_PER_UNIT = 0.006713662;
+        public static final double GRAINS_PER_UNIT = 15432.36;
+        public static final double GRAMS_PER_UNIT = 1000.0;
+        public static final double HECTORGRAMS_PER_UNIT = 10.0;
+        public static final double HUNDREDWEIGHTS_PER_UNIT = 0.02204623;
+        public static final double ITONS_PER_UNIT = 0.0009842065;
+        public static final double KILOGRAMS_PER_UNIT = 1.0;
+        public static final double MEGAGRAMS_PER_UNIT = 0.001;
+        public static final double MQUINTALS_PER_UNIT = 0.01;
+        public static final double MTONS_PER_UNIT = 0.001;
+        public static final double MICROGRAMS_PER_UNIT = 1000000000;
+        public static final double MILLIGRAMS_PER_UNIT = 1000000;
+        public static final double OUNCES_PER_UNIT = 35.27396;
+        public static final double PICOGRAMS_PER_UNIT = 1000000000000000.0;
+        public static final double POUNDS_PER_UNIT = 2.204623;
+        public static final double SLUGS_PER_UNIT = 0.06852178;
+        public static final double STICKS_PER_UNIT = 8.695652;
+        public static final double STONES_PER_UNIT = 0.157473;
+        public static final double TOLAS_PER_UNIT = 85.73532;
+        public static final double TROYOUNCES_PER_UNIT = 32.15075;
+        public static final double USQUINTALS_PER_UNIT = 0.022004623;
+        public static final double USTONS_PER_UNIT = 0.001102311;
+
+    }
+
 }
